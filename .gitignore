@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+logs/
+*.pid
+*.db
+*.sqlite
+superset_home/
+postgres_data/
+minio_data/

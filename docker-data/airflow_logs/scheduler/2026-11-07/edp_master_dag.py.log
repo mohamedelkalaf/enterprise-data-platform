@@ -1,0 +1,487 @@
+[2026-11-07T20:27:21.269+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:21.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:27:21.433+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:21.426+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:22.190+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:26.307+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:26.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:27:26.688+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:26.687+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:27:27.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 5.992 seconds
+[2026-11-07T20:27:57.894+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:57.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:27:57.904+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:57.903+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:57.987+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:27:58.299+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:58.299+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:27:58.414+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:27:58.413+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:27:58.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.602 seconds
+[2026-11-07T20:28:28.815+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:28:28.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:28:28.827+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:28:28.826+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:28:28.952+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:28:29.503+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:28:29.501+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:28:29.727+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:28:29.726+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:28:29.879+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 1.134 seconds
+[2026-11-07T20:29:00.265+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:00.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:29:00.276+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:00.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:00.339+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:00.691+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:00.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:29:00.847+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:00.847+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:29:01.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.753 seconds
+[2026-11-07T20:29:31.674+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:31.678+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:29:31.686+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:31.685+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:31.782+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:29:32.114+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:32.113+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:29:32.221+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:29:32.219+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:29:32.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.666 seconds
+[2026-11-07T20:30:02.747+0000] {processor.py:161} INFO - Started process (PID=289) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:02.750+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:30:02.754+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:02.754+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:02.828+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:03.126+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:03.125+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:30:03.223+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:03.223+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:30:03.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.557 seconds
+[2026-11-07T20:30:33.415+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:33.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:30:33.421+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:33.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:33.464+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:30:33.633+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:33.633+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:30:33.689+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:30:33.689+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:30:33.742+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.339 seconds
+[2026-11-07T20:32:12.902+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:12.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:32:12.937+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:12.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:13.061+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:13.434+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:13.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:32:13.629+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:13.626+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:32:13.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.894 seconds
+[2026-11-07T20:32:44.150+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:44.152+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:32:44.156+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:44.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:44.207+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:32:44.583+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:44.582+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:32:44.663+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:32:44.662+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:32:44.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.588 seconds
+[2026-11-07T20:33:15.001+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:15.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:33:15.006+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:15.006+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:15.038+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:15.199+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:15.199+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:33:15.257+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:15.257+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:33:15.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.309 seconds
+[2026-11-07T20:33:45.547+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:45.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:33:45.552+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:45.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:45.688+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:33:46.013+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:46.012+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:33:46.136+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:33:46.135+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:33:46.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.684 seconds
+[2026-11-07T20:34:16.477+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:16.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:34:16.483+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:16.483+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:16.515+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:16.634+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:16.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:34:16.681+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:16.681+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:34:16.723+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.258 seconds
+[2026-11-07T20:34:46.987+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:46.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:34:46.997+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:46.997+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:47.111+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:34:47.650+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:47.650+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:34:47.726+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:34:47.726+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:34:47.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.833 seconds
+[2026-11-07T20:35:18.012+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:18.014+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:35:18.018+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:18.017+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:18.061+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:18.222+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:18.222+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:35:18.297+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:18.297+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:35:18.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.356 seconds
+[2026-11-07T20:35:48.633+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:48.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:35:48.641+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:48.640+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:48.683+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:35:48.839+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:48.839+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:35:48.899+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:35:48.898+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:35:48.951+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.331 seconds
+[2026-11-07T20:36:19.330+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:19.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:36:19.338+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:19.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:19.390+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:19.976+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:19.976+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:36:20.072+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:20.071+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:36:20.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.846 seconds
+[2026-11-07T20:36:50.667+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:50.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:36:50.676+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:50.675+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:50.732+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:36:51.042+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:51.041+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:36:51.171+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:36:51.171+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:36:51.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.605 seconds
+[2026-11-07T20:37:21.568+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:21.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:37:21.575+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:21.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:21.615+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:21.767+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:21.767+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:37:21.829+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:21.829+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:37:21.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.320 seconds
+[2026-11-07T20:37:52.127+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:52.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:37:52.133+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:52.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:52.173+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:37:52.379+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:52.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:37:52.462+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:37:52.462+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:37:52.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.422 seconds
+[2026-11-07T20:38:22.806+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:22.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:38:22.811+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:22.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:22.845+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:22.996+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:22.996+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:38:23.049+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:23.049+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:38:23.101+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.304 seconds
+[2026-11-07T20:38:53.366+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:53.368+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:38:53.370+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:53.370+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:53.399+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:38:53.516+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:53.515+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:38:53.563+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:38:53.563+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:38:53.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.249 seconds
+[2026-11-07T20:39:23.819+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:23.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:39:23.823+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:23.823+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:23.851+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:23.966+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:23.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:39:24.008+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:24.007+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:39:24.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.238 seconds
+[2026-11-07T20:39:54.274+0000] {processor.py:161} INFO - Started process (PID=308) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:54.276+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:39:54.278+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:54.278+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:54.306+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:39:54.445+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:54.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:39:54.495+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:39:54.495+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:39:54.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.277 seconds
+[2026-11-07T20:40:24.755+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:24.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:40:24.759+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:24.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:24.787+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:24.910+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:24.910+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:40:24.955+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:24.954+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:40:24.995+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.248 seconds
+[2026-11-07T20:40:55.202+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:55.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:40:55.206+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:55.205+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:55.235+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:40:55.351+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:55.350+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:40:55.390+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:40:55.390+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:40:55.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.236 seconds
+[2026-11-07T20:41:25.647+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:25.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:41:25.651+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:25.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:25.682+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:25.814+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:25.813+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:41:25.871+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:25.871+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:41:25.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.279 seconds
+[2026-11-07T20:41:56.171+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:56.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:41:56.177+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:56.176+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:56.204+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:41:56.315+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:56.315+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:41:56.364+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:41:56.364+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:41:56.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.244 seconds
+[2026-11-07T20:42:26.639+0000] {processor.py:161} INFO - Started process (PID=333) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:26.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:42:26.645+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:26.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:26.684+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:26.824+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:26.823+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:42:26.876+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:26.875+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:42:26.923+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.293 seconds
+[2026-11-07T20:42:57.144+0000] {processor.py:161} INFO - Started process (PID=338) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:57.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:42:57.150+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:57.149+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:57.198+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:42:57.422+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:57.421+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:42:57.517+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:42:57.517+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:42:57.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.483 seconds
+[2026-11-07T20:43:27.913+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:27.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:43:27.917+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:27.917+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:27.950+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:28.073+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:28.073+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:43:28.114+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:28.114+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:43:28.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.251 seconds
+[2026-11-07T20:43:58.370+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:58.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:43:58.373+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:58.373+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:58.403+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:43:58.519+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:58.519+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:43:58.592+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:43:58.591+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:43:58.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.283 seconds
+[2026-11-07T20:44:28.995+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:44:29.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:44:29.020+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:44:29.018+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:44:29.133+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:44:29.638+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:44:29.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:44:29.716+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:44:29.715+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:44:29.785+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.823 seconds
+[2026-11-07T20:45:00.005+0000] {processor.py:161} INFO - Started process (PID=358) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:00.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:45:00.009+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:00.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:00.049+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:00.197+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:00.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:45:00.255+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:00.255+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:45:00.301+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.306 seconds
+[2026-11-07T20:45:30.519+0000] {processor.py:161} INFO - Started process (PID=363) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:30.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:45:30.523+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:30.523+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:30.553+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:45:30.671+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:30.670+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:45:30.711+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:45:30.711+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:45:30.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.240 seconds
+[2026-11-07T20:46:00.984+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:00.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:46:00.989+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:00.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:01.028+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:01.245+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:01.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:46:01.402+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:01.401+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:46:01.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.648 seconds
+[2026-11-07T20:46:31.962+0000] {processor.py:161} INFO - Started process (PID=373) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:31.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:46:31.969+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:31.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:32.010+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:46:32.236+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:32.236+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:46:32.301+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:46:32.300+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:46:32.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.406 seconds
+[2026-11-07T20:47:02.571+0000] {processor.py:161} INFO - Started process (PID=378) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:02.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:47:02.583+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:02.582+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:02.669+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:03.031+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:03.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:47:03.216+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:03.215+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:47:03.305+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.774 seconds
+[2026-11-07T20:47:33.790+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:33.793+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:47:33.797+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:33.796+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:33.837+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:47:34.026+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:34.026+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:47:34.118+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:47:34.118+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:47:34.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.398 seconds
+[2026-11-07T20:48:04.534+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:04.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:48:04.543+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:04.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:04.625+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:04.942+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:04.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:48:05.050+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:05.049+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:48:05.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.693 seconds
+[2026-11-07T20:48:35.417+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:35.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:48:35.422+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:35.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:35.471+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:48:35.697+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:35.696+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:48:35.754+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:48:35.754+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:48:35.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.388 seconds
+[2026-11-07T20:49:06.070+0000] {processor.py:161} INFO - Started process (PID=398) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:06.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:49:06.075+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:06.075+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:06.107+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:06.231+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:06.231+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:49:06.273+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:06.273+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:49:06.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.263 seconds
+[2026-11-07T20:49:36.641+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:36.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:49:36.650+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:36.650+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:36.695+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:49:36.861+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:36.861+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:49:36.915+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:49:36.915+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:49:36.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.343 seconds
+[2026-11-07T20:50:07.499+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:07.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:50:07.540+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:07.539+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:07.725+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:08.484+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:08.483+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:50:08.837+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:08.837+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:50:08.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 1.524 seconds
+[2026-11-07T20:50:39.192+0000] {processor.py:161} INFO - Started process (PID=420) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:39.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:50:39.198+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:39.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:39.237+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:50:39.380+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:39.379+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:50:39.447+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:50:39.447+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:50:39.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.326 seconds
+[2026-11-07T20:51:09.784+0000] {processor.py:161} INFO - Started process (PID=435) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:09.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:51:09.788+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:09.788+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:09.814+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:09.957+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:09.957+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:51:09.997+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:09.997+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:51:10.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.266 seconds
+[2026-11-07T20:51:40.305+0000] {processor.py:161} INFO - Started process (PID=440) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:40.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:51:40.311+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:40.309+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:40.353+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:51:40.566+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:40.566+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:51:40.618+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:51:40.617+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:51:40.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.384 seconds
+[2026-11-07T20:52:10.980+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:10.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:52:10.985+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:10.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:11.015+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:11.134+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:11.134+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:52:11.177+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:11.177+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:52:11.223+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.251 seconds
+[2026-11-07T20:52:41.517+0000] {processor.py:161} INFO - Started process (PID=453) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:41.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:52:41.522+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:41.522+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:41.556+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:52:41.702+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:41.701+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:52:41.748+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:52:41.748+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:52:41.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.279 seconds
+[2026-11-07T20:53:12.005+0000] {processor.py:161} INFO - Started process (PID=461) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:12.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:53:12.009+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:12.009+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:12.042+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:12.160+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:12.160+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:53:12.202+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:12.202+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:53:12.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.248 seconds
+[2026-11-07T20:53:42.536+0000] {processor.py:161} INFO - Started process (PID=466) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:42.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:53:42.542+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:42.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:42.706+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:53:43.103+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:43.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:53:43.396+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:53:43.394+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:53:43.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 1.031 seconds
+[2026-11-07T20:54:13.804+0000] {processor.py:161} INFO - Started process (PID=478) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:13.806+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:54:13.808+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:13.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:13.842+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:13.988+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:13.988+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:54:14.039+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:14.039+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:54:14.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.288 seconds
+[2026-11-07T20:54:44.213+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:44.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:54:44.222+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:44.221+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:44.276+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:54:44.461+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:44.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:54:44.531+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:54:44.531+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:54:44.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.395 seconds
+[2026-11-07T20:55:14.834+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:14.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:55:14.839+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:14.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:14.867+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:15.016+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:15.016+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:55:15.062+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:15.061+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:55:15.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.276 seconds
+[2026-11-07T20:55:45.436+0000] {processor.py:161} INFO - Started process (PID=506) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:45.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:55:45.441+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:45.441+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:45.473+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:55:45.628+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:45.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:55:45.685+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:55:45.684+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:55:45.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.310 seconds
+[2026-11-07T20:56:15.995+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:15.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:56:16.001+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:16.000+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:16.036+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:16.171+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:16.170+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:56:16.215+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:16.215+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:56:16.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.316 seconds
+[2026-11-07T20:56:46.532+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:46.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:56:46.536+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:46.536+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:46.566+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:56:46.683+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:46.682+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:56:46.727+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:56:46.726+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:56:46.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.246 seconds
+[2026-11-07T20:57:16.868+0000] {processor.py:161} INFO - Started process (PID=524) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:16.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:57:16.872+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:16.871+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:16.902+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:17.133+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:17.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:57:17.183+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:17.183+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:57:17.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.360 seconds
+[2026-11-07T20:57:47.403+0000] {processor.py:161} INFO - Started process (PID=529) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:47.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:57:47.408+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:47.407+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:47.435+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:57:47.551+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:47.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:57:47.592+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:57:47.592+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:57:47.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.234 seconds
+[2026-11-07T20:58:17.937+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:17.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:58:17.944+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:17.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:18.001+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:18.358+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:18.357+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:58:18.434+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:18.434+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:58:18.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.565 seconds
+[2026-11-07T20:58:48.712+0000] {processor.py:161} INFO - Started process (PID=539) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:48.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:58:48.716+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:48.716+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:48.744+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:58:48.857+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:48.857+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:58:48.900+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:58:48.900+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:58:48.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.233 seconds
+[2026-11-07T20:59:19.168+0000] {processor.py:161} INFO - Started process (PID=544) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:19.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:59:19.173+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:19.173+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:19.208+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:19.407+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:19.406+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:59:19.448+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:19.447+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:59:19.488+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.328 seconds
+[2026-11-07T20:59:49.690+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:49.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T20:59:49.694+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:49.693+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:49.720+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T20:59:49.835+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:49.835+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T20:59:49.874+0000] {logging_mixin.py:188} INFO - [2026-11-07T20:59:49.874+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T20:59:49.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.231 seconds
+[2026-11-07T21:00:20.280+0000] {processor.py:161} INFO - Started process (PID=554) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:20.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:00:20.285+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:20.285+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:20.322+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:20.555+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:20.555+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:00:20.654+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:20.653+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:00:20.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.453 seconds
+[2026-11-07T21:00:50.953+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:50.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:00:50.957+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:50.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:50.983+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:00:51.092+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:51.092+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:00:51.133+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:00:51.133+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:00:51.174+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.230 seconds
+[2026-11-07T21:01:21.381+0000] {processor.py:161} INFO - Started process (PID=564) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:21.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:01:21.385+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:21.385+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:21.415+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:21.529+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:21.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:01:21.571+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:21.570+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:01:21.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.239 seconds
+[2026-11-07T21:01:51.802+0000] {processor.py:161} INFO - Started process (PID=569) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:51.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:01:51.806+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:51.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:51.834+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:01:51.939+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:51.939+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:01:51.981+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:01:51.981+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:01:52.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.227 seconds
+[2026-11-07T21:02:22.307+0000] {processor.py:161} INFO - Started process (PID=574) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:22.310+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:02:22.315+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:22.314+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:22.349+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:22.533+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:22.533+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:02:22.600+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:22.599+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:02:22.656+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.363 seconds
+[2026-11-07T21:02:52.999+0000] {processor.py:161} INFO - Started process (PID=579) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:53.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:02:53.004+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:53.004+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:53.037+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:02:53.196+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:53.196+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:02:53.250+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:02:53.249+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:02:53.299+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.312 seconds
+[2026-11-07T21:03:23.542+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:03:23.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:03:23.547+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:03:23.546+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:03:23.574+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:03:23.690+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:03:23.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-11-07T21:03:23.731+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:03:23.731+0000] {dag.py:3954} INFO - Setting next_dagrun for enterprise_data_platform_e2e to 2026-11-07 00:00:00+00:00, run_after=2026-11-08 00:00:00+00:00
+[2026-11-07T21:03:23.771+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/edp_master_dag.py took 0.237 seconds
+[2026-11-07T21:03:56.260+0000] {processor.py:161} INFO - Started process (PID=589) to work on /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:03:56.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/edp_master_dag.py for tasks to queue
+[2026-11-07T21:03:56.322+0000] {logging_mixin.py:188} INFO - [2026-11-07T21:03:56.321+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/edp_master_dag.py
+[2026-11-07T21:03:57.344+0000] {processor.py:840} INFO - DAG(s) 'enterprise_data_platform_e2e' retrieved from /opt/airflow/dags/edp_master_dag.py

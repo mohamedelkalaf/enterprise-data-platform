@@ -1,0 +1,44 @@
+[2026-11-12T19:05:31.143+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-11-12T19:05:31.442+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: enterprise_data_platform_e2e.1_ingest_7_dbs_to_bronze manual__2026-11-12T19:04:24+00:00 [queued]>
+[2026-11-12T19:05:31.475+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: enterprise_data_platform_e2e.1_ingest_7_dbs_to_bronze manual__2026-11-12T19:04:24+00:00 [queued]>
+[2026-11-12T19:05:31.477+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2026-11-12T19:05:31.533+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): 1_ingest_7_dbs_to_bronze> on 2026-11-12 19:04:24+00:00
+[2026-11-12T19:05:31.554+0000] {standard_task_runner.py:63} INFO - Started process 414 to run task
+[2026-11-12T19:05:31.564+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'enterprise_data_platform_e2e', '1_ingest_7_dbs_to_bronze', 'manual__2026-11-12T19:04:24+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/edp_master_dag.py', '--cfg-path', '/tmp/tmpnw8ovrm5']
+[2026-11-12T19:05:31.573+0000] {standard_task_runner.py:91} INFO - Job 50: Subtask 1_ingest_7_dbs_to_bronze
+[2026-11-12T19:05:32.094+0000] {task_command.py:426} INFO - Running <TaskInstance: enterprise_data_platform_e2e.1_ingest_7_dbs_to_bronze manual__2026-11-12T19:04:24+00:00 [running]> on host 378b880d56b0
+[2026-11-12T19:05:32.745+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='mohamed_elkalaf' AIRFLOW_CTX_DAG_ID='enterprise_data_platform_e2e' AIRFLOW_CTX_TASK_ID='1_ingest_7_dbs_to_bronze' AIRFLOW_CTX_EXECUTION_DATE='2026-11-12T19:04:24+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-11-12T19:04:24+00:00'
+[2026-11-12T19:05:32.746+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-11-12T19:05:32.766+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2026-11-12T19:05:32.768+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'export PG_HOST=edp_postgres PG_PORT=5432 MINIO_ENDPOINT=edp_minio:9000 && python /opt/airflow/pipelines/ingest_to_bronze.py']
+[2026-11-12T19:05:32.782+0000] {subprocess.py:86} INFO - Output:
+[2026-11-12T19:05:33.713+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2026-11-12T19:05:33.714+0000] {subprocess.py:93} INFO -   File "/opt/airflow/pipelines/ingest_to_bronze.py", line 22, in <module>
+[2026-11-12T19:05:33.717+0000] {subprocess.py:93} INFO -     if not client.bucket_exists(BUCKET_NAME):
+[2026-11-12T19:05:33.718+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/minio/api.py", line 700, in bucket_exists
+[2026-11-12T19:05:33.718+0000] {subprocess.py:93} INFO -     self._execute("HEAD", bucket_name)
+[2026-11-12T19:05:33.719+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/minio/api.py", line 441, in _execute
+[2026-11-12T19:05:33.720+0000] {subprocess.py:93} INFO -     region = self._get_region(bucket_name)
+[2026-11-12T19:05:33.721+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/minio/api.py", line 498, in _get_region
+[2026-11-12T19:05:33.722+0000] {subprocess.py:93} INFO -     response = self._url_open(
+[2026-11-12T19:05:33.724+0000] {subprocess.py:93} INFO -   File "/home/airflow/.local/lib/python3.10/site-packages/minio/api.py", line 427, in _url_open
+[2026-11-12T19:05:33.725+0000] {subprocess.py:93} INFO -     raise response_error
+[2026-11-12T19:05:33.727+0000] {subprocess.py:93} INFO - minio.error.S3Error: S3 operation failed; code: InvalidRequest, message: Invalid Request (invalid hostname), resource: /bronze, request_id: 18E761A40AB0108C, host_id: dd9025bab4ad464b049177c95eb6ebf374d3b3fd1af9251148b658df7ac2e3e8
+[2026-11-12T19:05:33.781+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2026-11-12T19:05:33.783+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-11-12T19:05:33.945+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-11-12T19:05:33.951+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=enterprise_data_platform_e2e, task_id=1_ingest_7_dbs_to_bronze, run_id=manual__2026-11-12T19:04:24+00:00, execution_date=20261112T190424, start_date=20261112T190531, end_date=20261112T190533
+[2026-11-12T19:05:33.990+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 50 for task 1_ingest_7_dbs_to_bronze (Bash command failed. The command returned a non-zero exit code 1.; 414)
+[2026-11-12T19:05:34.032+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-11-12T19:05:34.184+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-11-12T19:05:34.196+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
